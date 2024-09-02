@@ -10,6 +10,8 @@ How to create something
 
 Provide an interface for creating families of related or dependent objects without specifying their concrete classes.
 
+![abstract factory structure](https://raw.githubusercontent.com/qishan233/images/main/design-pattern/20240902092849.png)
+
 ### Builder
 
 Separate the construction of a complex object from its representation so that the same construction process can create different representations.
