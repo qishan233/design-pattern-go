@@ -9,12 +9,16 @@ How to create something
 ### Abstract Factory
 
 Provide an interface for creating families of related or dependent objects without specifying their concrete classes.
+提供一个接口以创建一系列相关或相互依赖的对象，而无须指定它们具体的类
 
 ![abstract factory structure](https://raw.githubusercontent.com/qishan233/images/main/design-pattern/20240902092849.png)
 
 ### Builder
 
 Separate the construction of a complex object from its representation so that the same construction process can create different representations.
+将一个复杂对象的构建与它的表示分离，使得同样的构建过程可以创建不同的表示；
+
+![builder structure](https://raw.githubusercontent.com/qishan233/images/main/design-pattern/20240903205359.png)
 
 ### Factory Method
 
