@@ -4,33 +4,57 @@ Design patterns are basic elements of reusable object oriented software
 
 ## Creational Patterns
 
-How to create something
+Creational design patterns abstract the instantiation process.They help make a system independent of how its objects are created,composed, and represented. A class creational pattern uses inheritance to vary the class that's instantiated, whereas an object creational pattern will delegate instantiation to another object.
+
+创建型设计模式抽象了实例化过程。它们帮助一个系统独立于如何创建、组合和表示它的那些对象。一个类创建型模式使用继承改变被实例化的类，而一个对象创建型模式将实例化委托给另一个对象。
+
+Creational patterns become important as systems evolve to depend more on object composition than class inheritance. As that happens,emphasis shifts away from hard-coding a fixed set of behaviors toward defining a smaller set of fundamental behaviors that can be composed into any number of more complex ones. Thus creating objects with particular behaviors requires more than simply instantiating a class.
+
+随着系统演化得越来越依赖于对象组合而不是类继承，创建型模式变得更为重要。当这种情况发生时，重心从对一组固定行为的硬编码(hard-coding)转移为定义一个较小的基本行为集，这些行为可以被组合成任意数目的更复杂的行为。这样创建有特定行为的对象要求的不仅仅是实例化一个类。
+
+There are two recurring themes in these patterns. First, they all encapsulate knowledge about which concrete classes the system uses.Second, they hide how instances of these classes are created and put together. All the system at large knows about the objects is their interfaces as defined by abstract classes. Consequently, the creational patterns give you a lot of flexibility in what gets created, who creates it, how it gets created, and when. They let you configure a system with "product" objects that vary widely in structure and functionality. Configuration can be static (that is, specified at compile-time) or dynamic(at run-time).
+
+在这些模式中有两个不断出现的主旋律。第一，它们都将关于该系统使用哪些具体的类的信息封装起来。第二，它们隐藏了这些类的实例是如何被创建和放在一起的。整个系统关于这些对象所知道的是由抽象类所定义的接口。因此，创建型模式在什么被创建、谁创建它、它是怎样被创建的，以及何时创建等方面给予你很大的灵活性。它们允许你用结构和功能差别很大的“产品”对象配置一个系统。配置可以是静态的（即在编译时指定）​，也可以是动态的（在运行时指定）​。
 
 ### Abstract Factory
 
 Provide an interface for creating families of related or dependent objects without specifying their concrete classes.
+
 提供一个接口以创建一系列相关或相互依赖的对象，而无须指定它们具体的类
 
-![abstract factory structure](https://raw.githubusercontent.com/qishan233/images/main/design-pattern/20240902092849.png)
+![Abstract Factory structure](https://raw.githubusercontent.com/qishan233/images/main/design-pattern/20240902092849.png)
 
 ### Builder
 
 Separate the construction of a complex object from its representation so that the same construction process can create different representations.
+
 将一个复杂对象的构建与它的表示分离，使得同样的构建过程可以创建不同的表示；
 
-![builder structure](https://raw.githubusercontent.com/qishan233/images/main/design-pattern/20240903205359.png)
+![Builder structure](https://raw.githubusercontent.com/qishan233/images/main/design-pattern/20240903205359.png)
 
 ### Factory Method
 
 Define an interface for creating an object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation so subclasses.
 
+定义一个用于创建对象的接口，让子类决定实例化哪一个类。Factory Method使一个类的实例化延迟到其子类
+
+![Factory Method structure](https://raw.githubusercontent.com/qishan233/images/main/design-pattern/20240904084242.png)
+
 ### Prototype
 
 Specify the kinds of objects to create using a prototypical instance, and create new objects by copying this prototype.
 
+用原型实例指定创建对象的种类，并且通过拷贝这些原型创建新的对象。
+
+![Prototype structure](https://raw.githubusercontent.com/qishan233/images/main/design-pattern/20240904090625.png)
+
 ### Singleton
 
 Ensure a class only has one instance, and provide a global point of access to it.
+
+保证一个类仅有一个实例，并提供一个访问它的全局访问点。
+
+![Singleton structure](https://raw.githubusercontent.com/qishan233/images/main/design-pattern/20240904092510.png)
 
 ## Structural Patterns
 
