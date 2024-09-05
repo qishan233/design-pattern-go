@@ -60,9 +60,21 @@ Ensure a class only has one instance, and provide a global point of access to it
 
 Structural patterns are concerned with how classes and objects are composed to form larger structures.
 
+结构型模式涉及如何组合类和对象以获得更大的结构。
+
 ### Adapter
 
 Convert the interface of a class into another interface client expect. Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.
+
+将一个类的接口转换成客户希望的另外一个接口。Adapter 模式使得原本由于接口不兼容而不能一起工作的那些类可以一起工作。
+
+Class Adapter structure:
+
+![Class Adapter structure](https://raw.githubusercontent.com/qishan233/images/main/design-pattern/20240905211455.png)
+
+Object Adapter structure:
+
+![Object Adapter structure](https://raw.githubusercontent.com/qishan233/images/main/design-pattern/20240905211617.png)
 
 ### Bridge
 
