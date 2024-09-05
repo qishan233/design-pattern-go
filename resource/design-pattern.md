@@ -80,6 +80,10 @@ Object Adapter structure:
 
 Decouple the abstraction from its implementation so that the two can vary independently.
 
+将抽象部分与它的实现部分分离，使它们可以独立地变化。
+
+![Bridge structure](https://raw.githubusercontent.com/qishan233/images/main/design-pattern/20240905214602.png)
+
 ### Composite
 
 Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.
