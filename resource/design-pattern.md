@@ -88,6 +88,10 @@ Decouple the abstraction from its implementation so that the two can vary indepe
 
 Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.
 
+将对象组合成树形结构以表示“部分–整体”的层次结构。Composite 使得用户对单个对象和组合对象的使用具有一致性。
+
+![Composite structure](https://raw.githubusercontent.com/qishan233/images/main/design-pattern/20240905220053.png)
+
 ### Decorator
 
 Attach addition responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.
