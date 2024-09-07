@@ -128,9 +128,27 @@ Provide a surrogate or placeholder for another object to control access to it.
 
 Behavioral patterns are concerned with algorithms and the assignment of responsibilities between objects. Behavioral patterns describe not just patterns of objects or classes but also the patterns of communication between them.
 
+行为型模式涉及算法和对象间职责的分配。行为型模式不仅描述对象或类的模式，还描述它们之间的通信模式。
+
+Behavioral class patterns use inheritance to distribute behavior between classes.
+
+行为型模式涉及算法和对象间职责的分配。行为型模式不仅描述对象或类的模式，还描述它们之间的通信模式。
+
+Behavioral object patterns use object composition rather than inheritance.
+
+行为型模式涉及算法和对象间职责的分配。行为型模式不仅描述对象或类的模式，还描述它们之间的通信模式。
+
+Other behavioral object patterns are concerned with encapsulating behavior in an object and delegating requests to it.
+
+行为型模式涉及算法和对象间职责的分配。行为型模式不仅描述对象或类的模式，还描述它们之间的通信模式。
+
 ### Chain of Responsibility
 
 Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handle it.
+
+使多个对象都有机会处理请求，从而避免请求的发送者和接收者之间的耦合关系。将这些对象连成一条链，并沿着这条链传递该请求，直到有一个对象处理它为止。
+
+![chan of responsibility structure](https://raw.githubusercontent.com/qishan233/images/main/design-pattern/20240907203406.png)
 
 ### Command
 
