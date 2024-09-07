@@ -112,6 +112,10 @@ Provide a unified interface to a set of interfaces in a subsystem. Facade define
 
 Use sharing to support large numbers of fine-grained object efficiently.
 
+运用共享技术有效地支持大量细粒度的对象。
+
+![Flyweight](https://raw.githubusercontent.com/qishan233/images/main/design-pattern/20240907180604.png)
+
 ### Proxy
 
 Provide a surrogate or placeholder for another object to control access to it.
