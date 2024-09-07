@@ -104,6 +104,10 @@ Attach addition responsibilities to an object dynamically. Decorators provide a 
 
 Provide a unified interface to a set of interfaces in a subsystem. Facade defines a high-level interface that make the subsystem easier to use.
 
+为子系统中的一组接口提供一个一致的界面，Facade模式定义了一个高层接口，这个接口使得这一子系统更加容易使用。
+
+![Facade structure](https://raw.githubusercontent.com/qishan233/images/main/design-pattern/20240907174245.png)
+
 ### Flyweight
 
 Use sharing to support large numbers of fine-grained object efficiently.
