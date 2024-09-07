@@ -120,6 +120,10 @@ Use sharing to support large numbers of fine-grained object efficiently.
 
 Provide a surrogate or placeholder for another object to control access to it.
 
+为其他对象提供一种代理以控制对这个对象的访问。
+
+![Proxy structure](https://raw.githubusercontent.com/qishan233/images/main/design-pattern/20240907190902.png)
+
 ## Behavioral Patterns
 
 Behavioral patterns are concerned with algorithms and the assignment of responsibilities between objects. Behavioral patterns describe not just patterns of objects or classes but also the patterns of communication between them.
