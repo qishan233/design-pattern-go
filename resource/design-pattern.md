@@ -96,6 +96,10 @@ Compose objects into tree structures to represent part-whole hierarchies. Compos
 
 Attach addition responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.
 
+动态地给一个对象添加一些额外的职责。就增加功能来说，Decorator模式相比生成子类更为灵活。
+
+![Decorator structure](https://raw.githubusercontent.com/qishan233/images/main/design-pattern/20240907172349.png)
+
 ### Facade
 
 Provide a unified interface to a set of interfaces in a subsystem. Facade defines a high-level interface that make the subsystem easier to use.
