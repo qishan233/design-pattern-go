@@ -194,6 +194,10 @@ Without violating encapsulation, capture and externalize an object's internal st
 
 Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
 
+定义对象间的一种一对多的依赖关系，当一个对象的状态发生改变时，所有依赖于它的对象都得到通知并被自动更新。
+
+![Observer structure](https://raw.githubusercontent.com/qishan233/images/main/design-pattern/20240908153239.png)
+
 ### State
 
 Allow an object to alter its behavior when its internal state changes. The object will appear to change its class.
