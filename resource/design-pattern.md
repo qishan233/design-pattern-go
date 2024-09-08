@@ -202,6 +202,10 @@ Define a one-to-many dependency between objects so that when one object changes 
 
 Allow an object to alter its behavior when its internal state changes. The object will appear to change its class.
 
+允许一个对象在其内部状态改变时改变它的行为。对象看起来似乎修改了它的类。
+
+![State structure](https://raw.githubusercontent.com/qishan233/images/main/design-pattern/20240908155808.png)
+
 ### Strategy
 
 Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy let the algorithm vary independently from clients that use it.
