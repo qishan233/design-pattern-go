@@ -162,6 +162,10 @@ Encapsulate a request as an object, thereby letting you parameterize clients wit
 
 Given a language, define a representation for its grammar along with an interpreter that uses the representation to interpret sentence in th language.
 
+给定一个语言，定义它的文法的一种表示，并定义一个解释器，这个解释器使用该表示来解释语言中的句子。
+
+![Interpreter structure](https://raw.githubusercontent.com/qishan233/images/main/design-pattern/20240907221931.png)
+
 ### Iterator
 
 Provide a way to access the elements of an aggregated object sequentially without expose its underlying representation.

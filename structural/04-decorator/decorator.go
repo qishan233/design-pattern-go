@@ -1,7 +1,7 @@
 package main
 
 type Decorator interface {
-	Operation() string
+	Component
 }
 
 func NewConcreteDecoratorA(component Component) *ConcreteDecoratorA {
