@@ -210,6 +210,10 @@ Allow an object to alter its behavior when its internal state changes. The objec
 
 Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy let the algorithm vary independently from clients that use it.
 
+定义一系列的算法，把它们一个个封装起来，并且使它们可相互替换。本模式使得算法可独立于使用它的客户而变化。
+
+![Strategy structure](https://raw.githubusercontent.com/qishan233/images/main/design-pattern/20240908161203.png)
+
 ### Template Method
 
 Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. Template Method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure.
