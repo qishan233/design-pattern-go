@@ -225,3 +225,7 @@ Define the skeleton of an algorithm in an operation, deferring some steps to sub
 ### Visitor
 
 Represent an operation to be performed on the elements of an object structure. Visitor let you define a new operation without changing the classes of the elements on which it operates.
+
+表示一个作用于某对象结构中的各元素的操作。它使你可以在不改变各元素的类的前提下定义作用于这些元素的新操作。
+
+![Visitor structure](https://raw.githubusercontent.com/qishan233/images/main/design-pattern/20240908171030.png)
