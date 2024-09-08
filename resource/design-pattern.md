@@ -186,6 +186,10 @@ Define an object that encapsulate how a set of objects interact. Mediator promot
 
 Without violating encapsulation, capture and externalize an object's internal state so that the object can be restored to this state later.
 
+在不破坏封装性的前提下，捕获一个对象的内部状态，并在该对象之外保存这个状态。这样以后就可将该对象恢复到原先保存的状态。
+
+![Memento structure](https://raw.githubusercontent.com/qishan233/images/main/design-pattern/20240908144946.png)
+
 ### Observer
 
 Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
