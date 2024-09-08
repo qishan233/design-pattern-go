@@ -178,6 +178,10 @@ Provide a way to access the elements of an aggregated object sequentially withou
 
 Define an object that encapsulate how a set of objects interact. Mediator promotes loose coupling by keeping objects from referring to each other explicitly, and it let you vary their interaction independently.
 
+用一个中介对象来封装一系列的对象交互。中介者使各对象不需要显式地相互引用，从而使其耦合松散，而且可以独立地改变它们之间的交互。
+
+![Mediator structure](https://raw.githubusercontent.com/qishan233/images/main/design-pattern/20240908101805.png)
+
 ### Memento
 
 Without violating encapsulation, capture and externalize an object's internal state so that the object can be restored to this state later.
