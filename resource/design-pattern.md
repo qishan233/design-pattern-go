@@ -170,6 +170,10 @@ Given a language, define a representation for its grammar along with an interpre
 
 Provide a way to access the elements of an aggregated object sequentially without expose its underlying representation.
 
+提供一种方法顺序访问一个聚合对象中的各个元素，而又不需要暴露该对象的内部表示。
+
+![Iterator structure](https://raw.githubusercontent.com/qishan233/images/main/design-pattern/20240908091459.png)
+
 ### Mediator
 
 Define an object that encapsulate how a set of objects interact. Mediator promotes loose coupling by keeping objects from referring to each other explicitly, and it let you vary their interaction independently.
