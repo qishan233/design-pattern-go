@@ -218,6 +218,10 @@ Define a family of algorithms, encapsulate each one, and make them interchangeab
 
 Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. Template Method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure.
 
+定义一个操作中的算法的骨架，而将一些步骤延迟到子类中。TemplateMethod使得子类可以不改变一个算法的结构即可重定义该算法的某些特定步骤。
+
+![Template Method structure](https://raw.githubusercontent.com/qishan233/images/main/design-pattern/20240908162933.png)
+
 ### Visitor
 
 Represent an operation to be performed on the elements of an object structure. Visitor let you define a new operation without changing the classes of the elements on which it operates.
