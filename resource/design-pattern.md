@@ -132,15 +132,15 @@ Behavioral patterns are concerned with algorithms and the assignment of responsi
 
 Behavioral class patterns use inheritance to distribute behavior between classes.
 
-行为型模式涉及算法和对象间职责的分配。行为型模式不仅描述对象或类的模式，还描述它们之间的通信模式。
+类行为型模式使用继承机制在类间分派行为。
 
 Behavioral object patterns use object composition rather than inheritance.
 
-行为型模式涉及算法和对象间职责的分配。行为型模式不仅描述对象或类的模式，还描述它们之间的通信模式。
+对象行为型模式使用对象组合而不是继承。
 
 Other behavioral object patterns are concerned with encapsulating behavior in an object and delegating requests to it.
 
-行为型模式涉及算法和对象间职责的分配。行为型模式不仅描述对象或类的模式，还描述它们之间的通信模式。
+其他的对象行为型模式常将行为封装在一个对象中并将请求指派给它。
 
 ### Chain of Responsibility
 
