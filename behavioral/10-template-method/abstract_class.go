@@ -24,6 +24,6 @@ func (b *BaseTemplate) TemplateMethod() {
 	println("BaseTemplate TemplateMethod has do something, now call the step 2")
 	b.p.Step2()
 
-	println("BaseTemplate TemplateMethod has do something, now call the step 2")
+	println("BaseTemplate TemplateMethod has do something, now call the step 3")
 	b.p.Step3()
 }
